@@ -1,0 +1,18 @@
+.Pie {
+  /* padding-top: 1rem; */
+  
+  background: rgb(217, 174, 223);
+  
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  width: auto;
+  position: relative;
+    display: flex;
+    padding: 22px;
+    
+    margin-top: 1rem;
+ }
+ 
+
+

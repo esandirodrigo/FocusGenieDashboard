@@ -1,0 +1,229 @@
+.body {
+  font-family: Arial, sans-serif;
+  background-color: #4a9ce3;
+  margin: 0;
+  padding: 0;
+}
+
+.Accounts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+  
+}
+.board{
+   /* padding-top: 1rem; */
+   display: flex;
+   flex-direction: column;
+   
+   background: linear-gradient(
+     106.37deg,
+     #bf7de2 29.63%,
+     #88cddcc1 51.55%,
+     #ec8ce7 90.85%
+   );
+   padding: 50px;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(252, 216, 216, 0.1);
+   margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: -300px;
+ 
+}
+.Parent-container{
+   /* padding-top: 1rem; */
+   display: flex;
+   flex-direction: column;
+   
+   background: linear-gradient(
+     106.37deg,
+     #e1c6f0 29.63%,
+     #88cddcc1 51.55%,
+     #ec8ce7 90.85%
+   );
+   padding: 50px;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(252, 216, 216, 0.1);
+   margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: -300px;
+ 
+}
+.parent-dashboard {
+  background-color: rgba(255, 255, 255, 0.541);
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: auto;
+  max-width: auto;
+ 
+}
+
+.h1, h2 {
+  color: #1e90ff;
+}
+
+.add-child-form input,
+.add-child-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #1e90ff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4682b4;
+}
+
+.child-accounts {
+  margin-top: 20px;
+}
+
+.child-account {
+  background-color: #e6f7ff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
+.child-account h3 {
+  color: #1e90ff;
+ 
+}
+
+.Parent-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.chi-files{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;}
+
+  
+.child-form {
+  width: 100%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.child-form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.child-form button {
+  background: #2883a7;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.child-form button:hover {
+  background: #28218888;
+}
+
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .child-profiles {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .child-box {
+    background: rgb(226, 176, 228);
+    padding: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    
+  }
+  
+  .child-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .child-box img {
+    width: 75px;
+    height: 70px;
+    border-radius: 20%;
+
+  }
+
+  .child-details{
+    width: auto;
+    margin-left: 35%;
+   
+    
+  }
+  
+  .child-details img {
+    width: auto;
+    height: 250px;
+    border-radius: 10px;
+  }
+  
+  .cx{
+
+    width: 100%;
+    
+    background:  linear-gradient(
+      106.37deg,
+      #dcc1ec 29.63%,
+      #bbe8f1c1 51.55%,
+      #eea1ea 90.85%
+    );
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .remove-btn {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 16px;
+  }
+  
+  .remove-btn:hover {
+    color: darkred;
+  }
+  

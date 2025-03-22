@@ -1,0 +1,88 @@
+/* Head Container */
+.Head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+
+  flex-wrap: wrap; /* Ensures responsiveness */
+  margin-top: -30px;
+ 
+}
+
+/* Images */
+.image {
+  width: 200px;
+  height: 150px;
+  max-width: 100%;
+}
+.image1 {
+  width: 100px;
+  height: 150px;
+  max-width: 100%;
+}
+
+/* Center Content */
+.content {
+  flex: 1;
+  text-align: center;
+  min-width: 250px; /* Prevents collapsing */
+}
+
+/* Title */
+.date-range {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.981);
+  margin: 5px 0;
+}
+
+/* Date Text */
+.date-range1 {
+  font-size: 16px;
+  color: rgba(71, 68, 64, 0.981);
+}
+
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 1200px) {
+  .Head {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .image {
+    width: 120px; /* Reduce size for smaller screens */
+  }
+
+  .date-range {
+    font-size: 20px;
+  }
+
+  .date-range1 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Head {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+
+  .image {
+    width: 120px; /* Reduce size for smaller screens */
+  }
+
+  .date-range {
+    font-size: 20px;
+  }
+
+  .date-range1 {
+    font-size: 14px;
+  }
+}
