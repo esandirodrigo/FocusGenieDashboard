@@ -8,7 +8,7 @@ const Dashboard = () => {
   const chartHeight = 200;
 
   useEffect(() => {
-    fetch('/get_scores/Player01')
+    fetch('https://focusgenie-backend-production.up.railway.app/get_scores/Player01')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
